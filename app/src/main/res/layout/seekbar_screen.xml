@@ -16,13 +16,10 @@
 
     <SeekBar
         android:layout_marginTop="80dp"
-        android:max="100"
+        android:max="80"
         android:layout_below="@+id/textView6"
         android:id="@+id/seekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-
+        android:layout_width="match_parent"        android:layout_height="wrap_content" />
 
     <Button
         android:layout_marginTop="80dp"
