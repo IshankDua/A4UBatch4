@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RatingBarScreen"></activity>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainScreen"></activity>
-        <activity android:name=".LoginScreen"></activity>
-        <activity android:name=".SignupScreen"></activity>
-        <activity android:name=".SeekbarScreen"></activity>
-        <activity android:name=".RadioButtonScreen"></activity>
+        <activity android:name=".MainScreen" />
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".SignupScreen" />
+        <activity android:name=".SeekbarScreen" />
+        <activity android:name=".RadioButtonScreen" />
     </application>
 
 </manifest>
