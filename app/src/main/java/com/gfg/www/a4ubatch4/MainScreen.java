@@ -9,7 +9,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainScreen extends AppCompatActivity {
-    Button b1;
+    Button b1,b6,b11;
+
 
 
     @Override
@@ -18,6 +19,8 @@ public class MainScreen extends AppCompatActivity {
         setContentView(R.layout.main_screen);
 
         b1= (Button) findViewById(R.id.button2);
+        b6= (Button) findViewById(R.id.button6);
+        b11 = (Button)findViewById(R.id.button11);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +31,26 @@ public class MainScreen extends AppCompatActivity {
             }
         });
 
+
+
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a = new Intent(MainScreen.this,SeekbarScreen.class);
+                startActivity(a);
+
+            }
+        });
+
+        b11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a = new Intent(MainScreen.this,RadioButtonScreen.class);
+                startActivity(a);
+
+            }
+        });
 
     }}
