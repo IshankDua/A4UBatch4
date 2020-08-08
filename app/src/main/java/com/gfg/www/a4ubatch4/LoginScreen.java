@@ -30,7 +30,7 @@ public class LoginScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String username = "Ishan";
+                String username = "Ishank";
                 String password = "12345";
 
 
