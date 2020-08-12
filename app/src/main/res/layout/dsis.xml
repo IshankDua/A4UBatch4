@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/edtfilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="File Name "
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/edtfilename"
+        android:id="@+id/edtdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Data"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/edtdata"
+        android:id="@+id/txtfilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtfilename"
+        android:id="@+id/txtdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtdata"
+        android:id="@+id/btnsavetofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btnsavetofile"
+        android:id="@+id/btnreadfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

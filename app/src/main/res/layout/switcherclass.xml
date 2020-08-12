@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <TextSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextSwitcherDemo"
+        android:layout_marginTop="40dp"></TextSwitcher>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/TextSwitcherDemo"
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button18"
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button19"
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to main Menu"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

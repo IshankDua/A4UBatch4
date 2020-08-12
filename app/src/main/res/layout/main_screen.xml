@@ -87,7 +87,7 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBoxes"
+        android:text="Data Storage"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"/>
 
@@ -100,6 +100,43 @@
         android:layout_below="@+id/button7"
         android:layout_centerHorizontal="true"/>
 
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button11"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Bar"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button11"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/switcherclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Switchers"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button13"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/imageswitcherclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Switchers"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/switcherclass"
+        android:layout_centerHorizontal="true"/>
 
 
 </RelativeLayout>
